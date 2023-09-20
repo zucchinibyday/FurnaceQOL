@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "furnaceqol",
+	"version": "${version}",
+	"name": "Pushy Furnaces",
+	"description": "Adds a small quality of life change to furnaces, blast furnaces, and smokers",
+	"authors": [
+		"zucchini"
+	],
+	"contact": {
+		"homepage": "https://twitter.com/zucchinibyday/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/furnaceqol/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"furnaceqol.FurnaceQOL"
+		],
+		"client": [
+			"furnaceqol.FurnaceQOLClient"
+		]
+	},
+	"mixins": [
+		"furnaceqol.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

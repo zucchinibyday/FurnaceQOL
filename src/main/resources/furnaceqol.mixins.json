@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "furnaceqol.mixin",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AbstractFurnaceBlockEntityAccessors",
+    "AbstractFurnaceBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
